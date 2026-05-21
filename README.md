@@ -14,8 +14,13 @@ Este projeto é um aplicativo para organização de coleções musicais de álbu
 * lib/controllers/ - Lógica de cálculo dos valores e atualização da tela.
 * lib/screens/ e lib/widgets/ - Telas de login, início e caixas de diálogo.
 
-## Como rodar o projeto
+## Requisitos
+Para compilar e rodar este projeto nativamente no Windows, é preciso ter instalado:
 
+1. Flutter SDK instalado e configurado nas variáveis de ambiente.
+2. Pacote de **"Desenvolvimento para desktop com C++"** ativado no Visual Studio, caso contrário o Flutter não conseguirá gerar a janela nativa do Windows.
+
+## Como rodar o projeto
 1. Baixar as dependências do Flutter:
    flutter pub get
 
