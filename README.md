@@ -22,7 +22,10 @@ Para compilar e rodar este projeto nativamente no Windows, é preciso ter instal
 
 ## Como rodar o projeto
 1. Baixar as dependências do Flutter:
+   ```
    flutter pub get
-
-2. Compilar e rodar nativamente no Windows Desktop:
+    ```
+3. Compilar e rodar nativamente no Windows Desktop:
+   ```
    flutter run -d windows
+   ```
